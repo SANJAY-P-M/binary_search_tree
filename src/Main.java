@@ -8,5 +8,16 @@ public class Main {
         // It must print array in ascending
         // 2 8 20 50 60 66 81 88 93
         tree.inOrder();
+        System.out.println();
+
+        tree.deleteNode(60);
+
+        tree.inOrder();
+        System.out.println();
+
+        
+        System.out.println(tree.search(88));
+
+        System.out.println(tree.search(60));
     }
 }
